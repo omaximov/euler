@@ -5,6 +5,9 @@
 37.hs
 52.hs
 
+#tests for personal experimenting#
+primefiletest.py
+
 # settings and such #
 euler.code-workspace
 .vscode
