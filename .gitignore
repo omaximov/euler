@@ -8,3 +8,4 @@
 # settings and such #
 euler.code-workspace
 .vscode
+__pycache__/
