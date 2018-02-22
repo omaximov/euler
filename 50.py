@@ -14,3 +14,21 @@ import pickle
 with open ('primes_below_onemillion', 'rb') as fp:
     primes = pickle.load(fp)
 
+
+max_l = 1
+max_sum = 0
+for i in range(len(primes)):
+    curr_l = 1
+    p_sum = i
+    for j in range(i,len(primes)):
+        if p_sum+j in primes:
+            p_sum += j
+            curr_l += 1
+            if curr_l > max_l:
+                max_l = curr_l
+                max_sum = p_sum
+                print(max_sum)
+        else:
+            break
+
+
