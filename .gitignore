@@ -9,6 +9,5 @@
 primefiletest.py
 
 # settings and such #
-euler.code-workspace
-.vscode
 __pycache__/
+.vscode/
