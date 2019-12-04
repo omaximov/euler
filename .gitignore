@@ -1,9 +1,6 @@
 # Unfinished Projects #
-14.hs
-34.hs
-3.hs
-37.hs
-52.hs
+*.hi
+*.o
 
 #tests for personal experimenting#
 primefiletest.py
@@ -11,3 +8,4 @@ primefiletest.py
 # settings and such #
 __pycache__/
 .vscode/
+
